@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+
+# Django
+*.pot
+*.pyc
+*.pyo
+*.pyd
+db.sqlite3
+media/
+staticfiles/
+
+# Virtual environment
+env/
+venv/
+.venv/
+
+# VSCode
+.vscode/
+
+# Migrations
+**/migrations/*
+!**/migrations/__init__.py
+
+# OS
+.DS_Store
+Thumbs.db
